@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Demo</title>
+        <link rel="stylesheet" href="style1.css">
+    </head>
+    <body class="body"> 
+        <div class="container">
+            <div class="main">
+                <ul class="main1"> 
+                    <li class="console">Books</li>
+                    <li class="reight">Store</li>
+                </ul>
+            <h3 class="logistics">Online Network solutions</h3>
+        </div>
+        <div class="head">
+           <ul>
+            <li class="login"><a href="login.html" style="color: white;">Login</a></li>
+            <li class="signup"><a href="registration.html" style="color: white;">Sign Up</a></li>
+           </ul>
+        
+        <div class="form">
+            <form id="registrationForm">
+                <label class="email" for="username">Enter your Username</label><br>
+                <input class="textarea1" type="text" id="username" placeholder="Username" required><br><br>
+
+                <label class="pwd" for="password">New Password</label><br>
+                <input class="textarea2" type="password" id="password" placeholder="NewPassword" required><br>
+
+                <p class="p">At least 8 signs, Containing upper case,lowercase and at least one number.</p>
+
+                <label class="repwd" for="confirmPassword">Confirm Password</label><br>
+                <input class="textarea3" type="password" id="confirmPassword" placeholder="Confirm New Password" required>
+
+                <input type="submit" value="Sign Up" class="submit">
+            </form>
+            <script>
+                document.getElementById("registrationForm").addEventListener("submit", function(event) {
+                    var password = document.getElementById("password").value;
+                    var confirmPassword = document.getElementById("confirmPassword").value;
+                    
+                    if (password !== confirmPassword) {
+                        alert("Passwords do not match. Please try again.");
+                        event.preventDefault();
+                    }
+                });
+            </script>
+        </div>
+    </div>
+    </div>
+    </body>
+</html>

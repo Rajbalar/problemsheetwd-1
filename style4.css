@@ -1,0 +1,88 @@
+.container{
+  border: 0px solid black;
+  position: relative;
+  top: 190px;
+  background-image: radial-gradient(blue,darkblue,blue);
+  width: 800px;
+  left: 550px;
+  border-radius: 35px;
+}
+
+.haed{
+    border: 0px solid black;
+    position: relative;
+    left: 530px;
+    width: 230px;
+    height: 450px; 
+    padding-top: 100px;
+}
+.main{
+    border: 0px solid black;
+}
+.yrc{
+    list-style: none;
+    border-bottom: 1px solid #CCE4F7;
+    padding-left: 8px;
+    color: white;
+    width: 170px;
+}
+
+.congrats{
+    padding-left: 8px;
+    color: white;
+    font-family: cursive;
+}
+
+.middle{
+    color: white;
+}
+
+.email{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 210px;
+    height: 25px;
+    background-color: #d1e6ed;
+    border-bottom: 2px solid white;
+    padding-left: 12px;
+}
+
+.submit{
+    position: relative;
+    right: -55px;
+    top: 40px;
+    border-radius: 25px;
+    width: 115px;
+    height: 31px;
+    border: 0px;
+}
+
+li{
+    display: inline;
+}
+
+.connected{
+    color: orange;
+    font-family: cursive;
+
+}
+
+.diamond{
+    color: orange;
+}
+
+.diamond{
+    width: 16px;
+}
+
+.form{
+    border-bottom: 3px solid white;
+    width: 225px;
+    height: 85px;
+}
+.body{
+    background-image: url('images (1).jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+

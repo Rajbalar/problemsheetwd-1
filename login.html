@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Demo</title>
+        <link rel="stylesheet" href="style2.css">
+    </head>
+    <body class="body">
+        <div class="container">
+            <div class="main"></div>
+            <div class="haed">
+                <h3 class="congrats">CONGRATULATIONS!</h3>
+                <ul class="yrc">
+                    <li>You are</li>
+                    <li><img src="pngwing.png" class="diamond"></li>
+                    <li class="connected">Connected</li> 
+                </ul>
+            
+            <div class="middle">
+                <h5>Please login to load your new possibles</h5>
+            </div>
+            <div>
+                <form class="form" id="loginForm">
+                 
+                <input class="user" type="text" id="username" placeholder="Username" required><br>
+
+                    <input class="pwd" type="password" placeholder="Password" required><br>
+                    <input type="submit" value="LOGIN" class="submit">
+
+                </form>
+                <script>
+
+                    document.getElementById("loginForm").addEventListener("submit", function(event) {
+                        if ( "Validation passes" ) {
+                            alert("Login successful!");
+                        } else {
+                            alert("Login failed. Please check your credentials.");
+                            event.preventDefault();
+                        }
+                    });
+                    
+                </script>
+                <p><a href="forget.html" class="forget">Forget Password</a></p>
+            </div>
+          <div>
+            <img src="pngwing.com (1).png" class="imaage">
+          </div>
+        </div>
+        </div>
+    </body>
+</html>

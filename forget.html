@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forget Page</title>
+        <link rel="stylesheet" href="style4.css">
+    </head>
+    <body class="body"> 
+        <div class="container">
+            <div class="main"></div>
+            <div class="haed">
+                <h3 class="congrats">CONGRATULATIONS!</h3>
+                <ul class="yrc">
+                    <li>You are</li> 
+                    <li><img src="pngwing.png" class="diamond"></li>
+                    <li class="connected">Connected</li>
+                </ul>
+            
+            <div class="middle">
+                <h5>Enter your E-Mail</h5>
+            </div>
+            <div>
+                <form class="form" id="forgotPasswordForm">
+                    <input class="email" type="email" placeholder="Email" required><br>
+                    <input type="submit" value="Reset Password" class="submit">
+                </form>
+            </div>
+        </div>
+        </div>
+        <script>
+            document.getElementById("forgotPasswordForm").addEventListener("submit", function(event) {
+                alert("Password reset instructions sent to your email.");
+                event.preventDefault();
+            });
+        </script>
+    </body>
+</html>
